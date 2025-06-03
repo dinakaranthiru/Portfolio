@@ -53,7 +53,7 @@ class MobileNavigation {
   }
 
   bindEvents() {
-    const toggle = $('.mobile-menu-toggle');
+    const toggle = $('.mobile-toggle');
     const menu = $('.nav-menu');
     const navLinks = $$('.nav-link');
 
@@ -75,7 +75,7 @@ class MobileNavigation {
   }
 
   toggleMenu() {
-    const toggle = $('.mobile-menu-toggle');
+    const toggle = $('.mobile-toggle');
     const menu = $('.nav-menu');
     
     this.isOpen = !this.isOpen;
